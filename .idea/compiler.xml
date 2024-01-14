@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Configuration" />
+        <module name="Data-Provider" />
+        <module name="Core" />
+        <module name="Entry-Point" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Configuration" target="17" />
+      <module name="Core" target="17" />
+      <module name="Data-Provider" target="17" />
+      <module name="Entry-Point" target="17" />
+      <module name="Provisioning-Service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Configuration" options="-parameters" />
+      <module name="Core" options="-parameters" />
+      <module name="Data-Provider" options="-parameters" />
+      <module name="Entry-Point" options="-parameters" />
+      <module name="Provisioning-Service" options="" />
+    </option>
+  </component>
+</project>
